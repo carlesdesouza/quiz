@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="quiz">
+    <meta name="description" content="Testez vos connaissances en culture générale">
+
+    <meta property="og:title" content="Le Quiz">
+    <meta property="og:description" content="Testez vos connaissances en culture générale">
+    <meta property="og:image" content="https://carlesdesouza.github.io/quiz/assets/images/thumbnail.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:url" content="https://carlesdesouza.github.io/quiz">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Le Quiz</title>
+</head>
+<body>
+  <h1>Quiz : Culture générale</h1>
+
+  <form class="identification">
+    <input type="text" placeholder="Entre ton nom">
+    <button type="button">C'est parti !</button>
+  </form>
+
+  <div class="container-global inactive">
+
+    <h2 class="name">Salut, <span class="username"></span></h2>
+
+    <form class="form-quiz">
+
+      <div class="question-block">
+        <h4>Quelle est la devise nationale de la RDC ?</h4>
+
+        <div>
+          <input type="radio" name="q1" id="PaixJusticeTravail" value="a" checked>
+          <label for="PaixJusticeTravail">Paix, Justice, Travail</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q1" id="Unité" value="b">
+          <label for="L'Unité dans la diversité">L'Unité dans la diversité</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q1" id="JusticePaixTravail" value="c">
+          <label for="JusticePaixTravail">Justice, Paix, Travail</label>
+        </div>
+      </div>
+
+      <div class="question-block">
+        <h4>Qui fut le 1er pasteur à utiliser la Vaseline ?</h4>
+
+        <div>
+          <input type="radio" name="q2" id="Mukuna" value="a" checked>
+          <label for="Mukuna">Évêque Mukuna</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q2" id="Kalambayi" value="b">
+          <label for="Kalambayi">Mike Kalambayi</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q2" id="Mbiye" value="c">
+          <label for="Mbiye">Moïse Mbiye</label>
+        </div>
+      </div>
+
+      <div class="question-block">
+        <h4>Quel album de Fally est certifié disque de platine ?</h4>
+
+        <div>
+          <input type="radio" name="q3" id="Formule-7" value="a" checked>
+          <label for="Formule-7">Formule 7</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q3" id="Control" value="b">
+          <label for="Control">Control</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q3" id="Tokooos" value="c">
+          <label for="Tokooos">Tokooos</label>
+        </div>
+      </div>
+      
+      <div class="question-block">
+        <h4>Laquelle est une phrase de Boketsu ?</h4>
+
+        <div>
+          <input type="radio" name="q4" id="Sartre" value="a" checked>
+          <label for="Sartre">« L'enfer, c'est les autres. »</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q4" id="Cesar" value="b">
+          <label for="Cesar">« Je suis venu, j'ai vu, j'ai vaincu. »</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q4" id="Boketsu" value="c">
+          <label for="Boketsu">« Bokoto, bokoto, bokoto »</label>
+        </div>
+      </div>
+
+      <div class="question-block">
+        <h4>Quel est le meilleur rappeur français du monde ?</h4>
+  
+        <div>
+          <input type="radio" name="q5" id="LaFouine" value="a" checked>
+          <label for="LaFouine">La Fouine</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q5" id="Booba" value="c">
+          <label for="Booba">Booba</label>
+        </div>
+
+        <div>
+          <input type="radio" name="q5" id="Damso" value="b">
+          <label for="Damso">Damso</label>
+        </div>
+      </div>
+
+      <button type="submit">Valider</button>
+      
+      <div class="resultats">
+        <h2>Cliquez sur Valider pour voir vos résultats</h2>
+        <p class="aide"></p>
+        <p class="note"></p>
+      </div>
+    </form>
+  </div>
+  
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
