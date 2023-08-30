@@ -52,32 +52,32 @@ function showResults(finalResponses) {
 
         case 1:
             titleResult.innerHTML = `${emojis[1]} Tu y es presque ! ${emojis[1]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans la case rouge, puis re-valide !";
+            helpResult.innerHTML = "Retente une autre réponse, puis re-valide !";
             noteResult.innerText = "4/5";
             playMusic()
             break;
 
         case 2:
             titleResult.innerHTML = `${emojis[1]} Encore un effort ! ${emojis[2]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans la case rouge, puis re-valide !";
+            helpResult.innerHTML = "Retente d'autres réponses, puis re-valide !";
             noteResult.innerText = "3/5";
             break;
 
         case 3:
             titleResult.innerHTML = `${emojis[2]} Tu peux mieux faire ! ${emojis[2]}`;
-            helpResult.innerHTML  = "Retente une autre réponse dans les cases rouges, puis re-valide !";
+            helpResult.innerHTML  = "Retente d'autres réponses, puis re-valide !";
             noteResult.innerText = "2/5";
             break;
 
         case 4:
             titleResult.innerHTML = `${emojis[3]} Tu as besoin d'une mise à jour ! ${emojis[3]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-valide !";
+            helpResult.innerHTML = "Retente d'autres réponses, puis re-valide !";
             noteResult.innerText = "1/5";
             break;
 
         case 5:
             titleResult.innerHTML = `${emojis[4]} Allez, tu peux mieux faire ! ${emojis[4]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-valide !";
+            helpResult.innerHTML = "Retente d'autres réponses, puis re-valide !";
             noteResult.innerText = "0/5";
             break;
 
