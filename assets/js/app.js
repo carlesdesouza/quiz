@@ -71,13 +71,13 @@ function showResults(finalResponses) {
 
         case 4:
             titleResult.innerHTML = `${emojis[3]} Tu as besoin d'une mise à jour ! ${emojis[3]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-validez !";
+            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-valide !";
             noteResult.innerText = "1/5";
             break;
 
         case 5:
             titleResult.innerHTML = `${emojis[4]} Allez, tu peux mieux faire ! ${emojis[4]}`;
-            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-validez !";
+            helpResult.innerHTML = "Retente une autre réponse dans les cases rouges, puis re-valide !";
             noteResult.innerText = "0/5";
             break;
 
